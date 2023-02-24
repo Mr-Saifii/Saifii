@@ -14,7 +14,7 @@ yp ='\x1b[1;95m'
 C = '\x1b[0m' 
 
 idx = []
-p_ = ['first last','First Last','firstlast','first123','first1234','first12345','first786','First12','First123','First1234','First12345','first@123','first','first@12','first@1234','first@12345','First@12','First@123','first12','First','First@1234','First@12345','first@786','First@786']
+p_ = ['first last','First Last','firstlast','first123','first1234','first12345','First12','First123','First1234','First12345','first12','first','First']
 oku = []
 cpu = []
 loop = 1
