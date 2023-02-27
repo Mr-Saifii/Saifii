@@ -25,7 +25,7 @@ def menu():
     for x in open(file,'r').readlines():
         idx.append(x.strip())
     print(47*'-')
-    print('\t wait we are cracking ids .....')
+    print('\t Version 1 .....')
     print(47*'-')
     with lol (max_workers=30) as send:
         for ids in idx:
